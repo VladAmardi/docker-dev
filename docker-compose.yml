@@ -1,0 +1,7 @@
+version: '3.5'
+services:
+  docker-dev:
+    image: amardi/docker-dev
+    build:
+      context: .
+    privileged: true
